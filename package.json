@@ -1,0 +1,29 @@
+{
+  "name": "stations-contract",
+  "version": "9.1.2",
+  "description": "The smart contract that implements/enforces the logic of stations on stations.network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "social media",
+    "social network"
+  ],
+  "author": "Tony Fischetti",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@typechain/hardhat": "^6.0.0",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.7.0"
+  }
+}
